@@ -1,5 +1,6 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
+# test sync for yq-app in yq-ns namespace
 metadata:
   name: yq-app
 spec:
