@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: yq-app
+  namespace: yq-ns
+spec:
+  type: ClusterIP
+  selector:
+    app: yq-app
+  ports:
+    - port: 80
+      targetPort: 80
